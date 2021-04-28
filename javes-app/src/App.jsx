@@ -5,7 +5,8 @@ function App() {
     <div className="App">        
         <p>
           Hola, esto es parte de un repositorio. Hola Kelvin
-        </p>              
+        </p>     
+        <h1>Hola mundo</h1>         
     </div>
   );
 }
