@@ -1,10 +1,15 @@
 import React from 'react';
-
+import * as FaIcons from "react-icons/fa";
+import {link} from 'react-router-dom'
 const Menu = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <div className="navbar">
+                <link to="#" className='menu-bars'>
+                     <FaIcons.FaBars/>
+                </link>
+            </div>
+        </>
     );
 }
 
