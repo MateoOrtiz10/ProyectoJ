@@ -1,6 +1,6 @@
 function App() {
     return (
-  <div></div>
+  <div><p>Hola mundo. Mi taco tiene pinta de vagina podrida....</p></div>
      
     );
   }
