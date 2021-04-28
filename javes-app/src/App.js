@@ -6,7 +6,7 @@ function App() {
         <p>
           Hola, esto es parte de un repositorio. Hola Kelvin
         </p>              
-        <h1>Hola se lo lavan...</h1>
+                <h1>Chavito, ni con todo el dinero del mundo podre vencer el cáncer</h1>
     </div>
   );
 }
