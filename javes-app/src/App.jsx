@@ -1,5 +1,9 @@
-return (
-    <p>Esta es una prueba de edicion</p>
-   );
- }
- export default App;
+
+function App() {
+    return (
+        <p>Hola de nuevo</p>
+     
+    );
+  }
+  
+  export default App;
