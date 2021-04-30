@@ -10,7 +10,7 @@ import Oapas from './Pages/Oapas';
 import Obraspublicas from './Pages/Obraspublicas';
 import Sindicatura from './Pages/Sindicatura';
 import Tesoreria from './Pages/Tesoreria';
-
+import CarouselContainer from './Components/Slider';
 function App() {
   return (
     <>
@@ -28,7 +28,9 @@ function App() {
           <Route path='/tesoreria' component={Tesoreria}/>
         </Switch>
       </Router>
+      <CarouselContainer/>
   </>
+ 
   );
 }
 
