@@ -11,6 +11,7 @@ import Obraspublicas from './Pages/Obraspublicas';
 import Sindicatura from './Pages/Sindicatura';
 import Tesoreria from './Pages/Tesoreria';
 import CarouselContainer from './Components/Slider';
+import Menudeabajo from'./Components/Menu_de_Abajo';
 function App() {
   return (
     <>
@@ -29,6 +30,7 @@ function App() {
         </Switch>
       </Router>
       <CarouselContainer/>
+      <Menudeabajo/>
   </>
  
   );
