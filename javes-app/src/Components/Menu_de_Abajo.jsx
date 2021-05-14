@@ -10,7 +10,7 @@ function Menu_de_Abajo() {
         <nav id="colorNav">
  <ul>
  <li class="green">
- <a href="#" class="icon-home"> imagen</a>
+ <a href="#" class="icon-home"> Imagen</a>
  <ul>
  <li><a href="#">Reparaciones</a></li>
  <li><a href="#">Consultas</a></li>
