@@ -10,7 +10,7 @@ function Menu_de_Abajo() {
         <nav id="colorNav">
  <ul>
  <li class="green">
- <a href="#" class="icon-home">Insertar imagen</a>
+ <a href="#" class="icon-home"> imagen</a>
  <ul>
  <li><a href="#">Reparaciones</a></li>
  <li><a href="#">Consultas</a></li>
@@ -19,7 +19,7 @@ function Menu_de_Abajo() {
  </li>
  
  <li class="blue">
- <a href="#" class="icon-home">Insertar Imagen</a>
+ <a href="#" class="icon-home"> Imagen</a>
  <ul>
  <li><a href="#">Reparaciones</a></li>
  <li><a href="#">Consultas</a></li>
@@ -27,7 +27,7 @@ function Menu_de_Abajo() {
  </ul>
  </li>
  <li class="red">
- <a href="#" class="icon-home">Insertar Imagen xd</a>
+ <a href="#" class="icon-home">Imagen </a>
  <ul>
  <li><a href="#">Reparaciones</a></li>
  <li><a href="#">Consultas</a></li>
@@ -38,6 +38,7 @@ function Menu_de_Abajo() {
  
 </ul>
 </nav>
+<br/>
 <br/>
         </div>
     )
