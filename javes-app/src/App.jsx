@@ -1,13 +1,12 @@
 import React from 'react';
-import Header from './Components/Header';
-import CarouselContainer from './Components/Slider';
+import Header from './Components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
-    <>
-        <Header/>                            
-        {/* <CarouselContainer/>     */}
- </>
+      <>
+        <Header/>                                         
+      </>
   );
 }
 
