@@ -7,7 +7,7 @@ const App = () => {
   return (
         <div>
         <Header/>  
-      <h2>Hola! Bienvenido!</h2>                                                       
+      <h2>Hola! Bienvenido!</h2>
       <Router>
         <>
         <Link to ='/'>Go to welcome</Link><br />
