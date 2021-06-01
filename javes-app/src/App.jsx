@@ -6,27 +6,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
   return (
         <div>
-        <Header/>  
-      <h2>Hola! Bienvenido!</h2>
+        <Header/>        
       <Router>
         <>
-        <Link to ='/'>Go to welcome</Link><br />
-        <Link to ='/employed'>Go to Register Employed</Link> <br />
-        <Link to ='/Out'>Go to Register Out</Link><br />        
+        <Link to ='/'>Inicio</Link><br />
+        <Link to ='/entradas'>Registro de entradas</Link> <br />
+        <Link to ='/salidas'>Registro de Salidas</Link><br />        
         </>
         <Switch>
           <Route exact path='/'>
-            <h2>Welcome!</h2>
-          </Route>          
-          <Route path='/out'>
-            <h2>Out!</h2>
-          </Route>
-          <Route path='/employed'>
-            <h2>Employed!</h2>
-          </Route>
+            <h2>Bienvenido a Inicio!</h2>
+          </Route>    
+          <Route path='/entradas'>
+            <h2>Registro de Entradas de Horario</h2>
+          </Route>      
+          <Route path='/salidas'>
+            <h2>Registro de Salidas de Horario</h2>
+          </Route>   
+          <Route path='/AdmJav'>
+            <h2>Administración de App</h2>
+          </Route>      
           <Route>
-            <h2>Not Found</h2>
-          </Route>
+            <h2>Error 404 Not Found</h2>
+          </Route>          
         </Switch>
       </Router>
       </div>
