@@ -17,10 +17,25 @@
     height: 100px;
 }
 
-.formulario{
-    width: 100%;
-    height: auto;
-    border: solid 2px #000000;
-    justify-content: center;
-    padding: 5px;
+.titulo{
+    color: #ff0000;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #000000 ;
+}
+
+.link{
+    color:#000000;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.opcion{
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+    margin: auto;
+}
+
+.contenedorfrm{
+    border: solid 1px #000000;
 }
