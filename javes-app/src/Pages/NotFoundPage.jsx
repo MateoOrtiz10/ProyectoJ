@@ -1,12 +1,32 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import '../Style/javes.css';
+import Grid from '@material-ui/core/Grid';
+import {IconContext} from 'react-icons';
+import { BsFillExclamationDiamondFill } from "react-icons/bs";
+import Typography from '@material-ui/core/Typography';
+import {Link as RouterLink} from 'react-router-dom';
+import Link from '@material-ui/core/Link';
+
 const NotFoundPage = () => {
     return (
-        <div>
-            <h2 className="titulo">Error 404 Not Found</h2>
-            <Link to='./'>Regresar a Inicio</Link>
-        </div>
+        <Grid container direction ="column" justify="center" className="full">
+                <div className="highlight">
+                    <Grid item container xs={12} justify="center" alignItems="center">
+                        <Grid item>
+                            <IconContext.Provider value={{size:'8em'}}>
+                               <BsFillExclamationDiamondFill/> 
+                            </IconContext.Provider>
+                        </Grid> 
+                        <Grid item container direction="colum" justify="center" alignItems="center">
+                            <Typography>
+                               404 | Pagina no encontrada                               
+                            </Typography>                            
+                        </Grid>  
+                        <Link component={RouterLink} to ="/" color="inhetir" aria-label="menu">
+                                Ir a Principal
+                        </Link>                     
+                    </Grid>
+                </div>
+            </Grid>
     )
 }
 

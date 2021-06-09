@@ -21,6 +21,7 @@
     color: #ff0000;
     font-size: 40px;
     text-shadow: 2px 2px 2px #000000 ;
+    text-align: center;
 }
 
 .link{
@@ -36,6 +37,11 @@
     margin: auto;
 }
 
-.contenedorfrm{
+.formulario{
     border: solid 1px #000000;
+    text-align: center;
+    margin: 5px auto;
+    padding: 5px;
+    width: 40%;
+    height: auto;
 }

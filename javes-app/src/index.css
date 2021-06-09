@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.full{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.highlight{
+  margin:20%;
+  padding: 10px;
+  width: 40%;
+  height: auto;
+  align-self: center;
+  border-radius: 15px;
+  color:rgb(44,3,83 );
+  font-weight: 600;
+  font-size: x-large;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.highlight:hover{
+  background-color: rgba(255,255,255,0.8);
+  transition-duration: 2100ms;
+}

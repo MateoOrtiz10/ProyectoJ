@@ -1,13 +1,16 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import '../Style/javes.css';
+import AppFrame from '../Components/AppFrame/AppFrame';
+import Grid from '@material-ui/core/Grid';
 
 
 const RegisteEmployed = () => {
     return (
-        <div>
+        <AppFrame>
+            <Grid container justify="center" direction="colum"> 
             <h3 className="titulo">Registro de Entradas</h3> <br/>   
-            <form>
+            <Grid item xs={12}>
+            <form className="formulario">
                 <label>Nombre:
                     <input type="text" className="form-control" />
                 </label><br/>
@@ -20,8 +23,9 @@ const RegisteEmployed = () => {
                 <button type="submit" className="btn btn-primary">Guardar</button>                
                 <button type="reset" className="btn btn-primary">Borrar</button>
             </form> <br />        
-            <Link to='./' className="link btn btn-dark">Regresar a Inicio</Link>           
-        </div>         
+            </Grid>                                        
+            </Grid>            
+        </AppFrame>         
         
                  
     )
