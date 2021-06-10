@@ -16,9 +16,9 @@ const NotFoundPage = () => {
                                <BsFillExclamationDiamondFill/> 
                             </IconContext.Provider>
                         </Grid> 
-                        <Grid item container direction="colum" justify="center" alignItems="center">
+                        <Grid item container direction="column" justify="center" alignItems="center">
                             <Typography>
-                               404 | Pagina no encontrada                               
+                              <h4>404 Pagina no encontrada</h4> 
                             </Typography>                            
                         </Grid>  
                         <Link component={RouterLink} to ="/" color="inhetir" aria-label="menu">

@@ -2,7 +2,7 @@ import React from 'react';
 import WelcomeScreen from '../Components/WelcomeScreen/WelcomeScreen';
 import Grid from '@material-ui/core/Grid';
 import {IconContext} from 'react-icons';
-import {WiDaySunny} from 'react-icons/wi'
+import {AiTwotoneUsb} from 'react-icons/ai'
 import Typography from '@material-ui/core/Typography';
 import {Link as RouterLink} from 'react-router-dom';
 import Link from '@material-ui/core/Link';
@@ -15,12 +15,12 @@ const WelcomePage = () => {
                     <Grid item container xs={12} justify="center" alignItems="center">
                         <Grid item>
                             <IconContext.Provider value={{size:'8em'}}>
-                                <WiDaySunny/>
+                                <AiTwotoneUsb/>
                             </IconContext.Provider>
                         </Grid> 
                         <Grid item container direction="colum" justify="center" alignItems="center">
                             <Typography>
-                                JavesApp
+                               <h4>JavesApp</h4> 
                             </Typography>                            
                         </Grid>  
                         <Link component={RouterLink} to ="/main" color="inhetir" aria-label="menu">
