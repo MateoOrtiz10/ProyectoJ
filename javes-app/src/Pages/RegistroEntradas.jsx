@@ -10,7 +10,7 @@ const RegisteEmployed = () => {
             <Grid container justify="center" direction="colum"> 
             <h3 className="titulo">Registro de Entradas</h3> <br/>   
             <Grid item xs={12}>
-            <form className="formulario">
+            <form className="formulario" >
                 <label>Nombre:
                     <input type="text" className="form-control" />
                 </label><br/>
@@ -20,8 +20,8 @@ const RegisteEmployed = () => {
                 <label>Hora de Entrada:
                     <input type="time" className="form-control"></input>
                 </label><br/>
-                <button type="submit" className="btn btn-primary">Guardar</button>                
-                <button type="reset" className="btn btn-primary">Borrar</button>
+                <button type="submit" className="botonenes">Guardar</button>                
+                <button type="reset" className="botonenes">Borrar</button>
             </form> <br />        
             </Grid>                                        
             </Grid>            
