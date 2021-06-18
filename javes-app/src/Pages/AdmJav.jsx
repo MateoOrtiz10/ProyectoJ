@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import '../Style/javes.css';
 
 const AdmJav = () => {
     return (
         <div>
-            <h2>Administracion</h2>            
+            <h2 className="titulo">Administracion</h2>            
         </div>
     )
 }

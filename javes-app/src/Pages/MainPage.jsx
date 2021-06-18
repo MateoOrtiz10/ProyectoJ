@@ -9,7 +9,8 @@ const MainPage = () => {
         <AppFrame>
             <Grid container justify="center" alignItems="center" direction="column">                
                 <Link className="boton"  to='/entradas'>Registrar una entrada</Link> 
-                <Link className="boton" to='/salidas'>Registrar una salida</Link>                           
+                <Link className="boton" to='/salidas'>Registrar una salida</Link> 
+                <Link to='/'>SALIR</Link>                          
             </Grid>
         </AppFrame>
     )

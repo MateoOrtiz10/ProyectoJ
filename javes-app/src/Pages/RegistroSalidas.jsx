@@ -5,9 +5,9 @@ import Grid from '@material-ui/core/Grid';
 
 const RegisterOut = () => {
     return (
-        <AppFrame>
-            <h3 className="titulo">Registro de Salidas</h3><br/>            
+        <AppFrame>            
             <Grid container justify="center" direction="colum">
+            <h3 className="titulo">Registro de Salidas</h3><br/>            
                 <Grid item xs={12}>
                 <form className="formulario">
                 <label>Nombre:</label><br/>
