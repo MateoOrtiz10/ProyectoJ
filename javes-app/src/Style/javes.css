@@ -1,50 +1,4 @@
-.header{
-    background: #000000;
-    width: 100%;
-    height: 100px;         
-    display: flex;   
-    margin-bottom: 20px; 
-}
 
-.empresa{
-    margin: 1rem;    
-    align-items: center;
-    color: #ffffff;
-}
-
-.logotipo{
-    width: 140px;
-    height: 100px;
-}
-
-.titulo{
-    color: #ff0000;
-    font-size: 40px;
-    text-shadow: 2px 2px 2px #000000 ;
-    text-align: center;
-}
-
-.link{
-    color:#000000;
-    text-decoration: none;
-    font-size: 15px;
-    
-}
-
-.opcion{
-    border-top: solid 1px #000000;
-    border-bottom: solid 1px #000000;
-    margin: auto;
-}
-
-/*.formulario{
-    border: solid 1px #000000;
-    text-align: center;
-    margin: 5px auto;
-    padding: 5px;
-    width: 40%;
-    height: auto;
-}*/ 
 /*Otro del formilario*/
  *{
 	 margin: 0;
@@ -59,19 +13,12 @@
 	 margin-top: 10px;
 	 border-radius: 4px;
 	 font-family: 'calibri';
-	 color:white ;
+	 color:#ffffff;
+	 text-align: center;	 
  }
-.controls{
-	width: 100%;
-	background:#24303c ;
-	border-radius: 4px;
-	margin-bottom: 16px;
-	border:1px solid #1f53c5;
-	font-family: 'calibri';
-	font-size: 18px;
-}
+
 .botonenes{
-	width: 100%;
+	width: 90%;
 	background: #1f53c5;
 	border:none;
 	padding: 12px;
@@ -80,12 +27,17 @@
 	font-size: 16px;
 
 }
+
+.botonenes:hover{
+	background-color: #1295c9;
+}
+
 /* Botones para dar estilo al registro*/
 a.boton{
 	margin-top: 100px;
 	position: relative;
 	display: block;
-	padding: 25px 10px;
+	padding: 20px 10px;
 	border-radius: 6px;
 	text-align: center;
 	font-weight: bold;
@@ -123,7 +75,9 @@ a.boton:before{
  
 a.boton:hover{
 	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-	background:#1295c9
+	background:#1295c9;
+	color: #ffffff;
+	text-decoration: none;
 }
  
 a.boton:hover:after,

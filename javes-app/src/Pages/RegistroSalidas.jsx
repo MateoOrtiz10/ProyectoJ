@@ -10,17 +10,14 @@ const RegisterOut = () => {
             <Grid container justify="center" direction="colum">
                 <Grid item xs={12}>
                 <form className="formulario">
-                <label>Nombre:
-                    <input type="text" className="form-control" />
-                </label><br/>
-                <label>Fecha:
-                    <input type="date" className="form-control"></input>
-                </label><br/>
-                <label>Hora de Salida:
-                    <input type="time" className="form-control"></input>
-                </label><br/>
-                <button className="btn btn-primary">Guardar</button>
-                <button type="reset" className="btn btn-primary">Borrar</button>
+                <label>Nombre:</label><br/>
+                <input type="text" className="form-control text-center" /><br />
+                <label>Fecha:</label><br/>
+                <input type="date" className="form-control text-center"></input><br />
+                <label>Hora de Salida:</label><br/>
+                <input type="time" className="form-control text-center"></input><br />
+                <button type="submit" className="botonenes">Guardar</button>
+                <button type="reset" className="botonenes">Borrar</button>
             </form> <br />  
                 </Grid>                
             </Grid>                  
