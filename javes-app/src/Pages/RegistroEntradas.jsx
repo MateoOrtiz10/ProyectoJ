@@ -33,13 +33,13 @@ const RegistroEnt = () => {
             <h3 className="titulo">Registro de Entradas</h3> <br/>   
             <Grid item xs={12}>
             <form className="formulario" onSubmit={handleSubmit(onSubmit)}>
-                <label>Nombre:</label><br />
-                <input type="text" className="form-control text-center" name="NombreTrab" {...register("NombreTrab", {required: true})} />
-                {errors.NombreTrab && <span className='text-danger'>Se requiere el nombre</span>}
+                <label>ID de Trabajador</label><br />                
+                <input type="text" className="form-control text-center" name="idTrabH" {...register("idTrabH", {required: true})} />
+                {errors.idTrabH && <span className='text-danger'>Se requiere el nombre</span>}
                 <br />                
                 <label>Fecha:</label><br />
-                <input type="date" className="form-control text-center" name="Fecha" {...register("Fecha", {required: true})}></input>
-                {errors.Fecha && <span className="text-danger">Se requiere la fecha</span>}
+                <input type="date" className="form-control text-center" name="FechaEnt" {...register("FechaEnt", {required: true})}></input>
+                {errors.FechaEnt && <span className="text-danger">Se requiere la fecha</span>}
                 <br />
                 <label>Hora de Entrada (24hrs):</label><br />
                 <input type="time" className="form-control text-center" name="HorarioEntrada" {...register("HorarioEntrada", {required: true})} ></input>

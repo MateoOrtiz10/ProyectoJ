@@ -11,13 +11,12 @@
 	 font-family: 'Playfair Display', serif;
 	 text-shadow: 2px 1px 1px #ff0000;
  }
-		
+
  .formulario{
 	 width: 400px;
 	 background: #24303c;
 	 padding: 10px;
-	 margin: auto;
-	 margin-top: 10px;
+	 margin: auto;	
 	 border-radius: 4px;
 	 font-family: 'calibri';
 	 color:#ffffff;
@@ -28,7 +27,7 @@
 	width: 90%;
 	background: #1f53c5;
 	border:none;
-	padding: 12px;
+	padding: 10px;
 	color: white;
 	margin: 16px 0;
 	font-size: 16px;
