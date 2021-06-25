@@ -5,9 +5,11 @@ import Bienvenido from './Pages/Bienvenido';
 import Admin from './Pages/AdmJav';
 import NotFound from './Pages/NotFoundPage';
 import MainPage from './Pages/MainPage';
+import Trabajadores from './Pages/RegistroTrabajador';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
+
 const App = () => {
   return (
         <Grid container justify="center" direction="row">                  
@@ -27,7 +29,10 @@ const App = () => {
               </Route>   
                 <Route path='/AdmJav'>
                 <Admin/>
-              </Route>              
+              </Route> 
+              <Route path='/Trabajadores'>    
+                <Trabajadores/>
+              </Route>             
               <Route>
                 <NotFound/>
               </Route>          

@@ -35,7 +35,7 @@ const RegistroEnt = () => {
             <form className="formulario" onSubmit={handleSubmit(onSubmit)}>
                 <label>ID de Trabajador</label><br />                
                 <input type="text" className="form-control text-center" name="idTrabH" {...register("idTrabH", {required: true})} />
-                {errors.idTrabH && <span className='text-danger'>Se requiere el nombre</span>}
+                {errors.idTrabH && <span className='text-danger'>Se requiere el ID</span>}
                 <br />                
                 <label>Fecha:</label><br />
                 <input type="date" className="form-control text-center" name="FechaEnt" {...register("FechaEnt", {required: true})}></input>
