@@ -9,8 +9,8 @@ const AdmJav = () => {
          <Grid item xs={3}>
             <h3 className="titulo">Administracion</h3>
          </Grid>
-           <Link className="boton"  to='/Trabajadores'>Realizar un registro</Link>   
-           <Link className="boton"  to='#'>Realizar una consulta</Link>
+           <Link className="boton"  to='/Trabajadores'>Registrar un trabajador</Link>   
+           {/* <Link className="boton"  to='#'>Realizar una consulta</Link> */}
            <br />
            <Link to='/'>SALIR</Link>            
         </Grid>        

@@ -23,7 +23,7 @@ const WelcomePage = () => {
                                <h4>JavesApp</h4> 
                             </Typography>                            
                         </Grid>  
-                        <Link component={RouterLink} to ="/main" color="inhetir" aria-label="menu">
+                        <Link  component={RouterLink} to ="/main" color="inhetir" className="link" aria-label="menu">
                                 ACCEDER
                         </Link>                     
                     </Grid>

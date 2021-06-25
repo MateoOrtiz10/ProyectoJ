@@ -49,9 +49,9 @@ const RegistroTrabajador = () => {
                 <br /> 
                 <button type="submit" className="botonenes">Guardar</button>
                 <button type="reset" className="botonenes">Borrar</button>
-            </form> <br />  
-                </Grid>
-                <Link to='/AdmJav'>VOLVER</Link>
+                <Link to='/AdmJav'>REGRESAR</Link>
+            </form> <br />              
+                </Grid>                
         </Grid>
     )
 }
