@@ -18,7 +18,7 @@ const RegistroSal = () => {
             headers: {'Content-Type':'application/json'},
             body: JSON.stringify(data)          
         })
-        .then( resp=> resp.json () )
+        .then( resp=> resp.json() )
         .then(json=>{
             reset();
             console.log("Respuesta:", json);
@@ -37,19 +37,19 @@ const RegistroSal = () => {
                 <input type="text" className="form-control text-center" name="idTrabH" {...register("idTrabH", {required: true})} />
                 {errors.idTrabH && <span className='text-danger'>Se requiere el ID</span>}
                 <br />   
-                <label>Fecha:</label><br />
+                {/* <label>Fecha:</label><br />
                 <input type="date" className="form-control text-center" name="FechaEnt" {...register("FechaEnt", {required: true})}></input>
                 {errors.FechaEnt && <span className="text-danger">Se requiere la fecha</span>}
                 <br />            
                 <label>Hora de Salida (24hrs):</label><br/>
                 <input type="time" className="form-control text-center" name="HorarioSalida" {...register("HorarioSalida", {required: true})} ></input>
                 {errors.HorarioSalida && <span className="text-danger">Se requiere el horario</span>}
-                <br />
+                <br /> */}
                 <button type="submit" className="botonenes">Guardar</button>
                 <button type="reset" className="botonenes">Borrar</button>
             </form> <br />  
                 </Grid>
-                <Link to='main'>VOLVER</Link>                   
+                <Link to='/'>VOLVER</Link>                   
                 </Grid>                  
         </AppFrame>
     )

@@ -22,7 +22,7 @@ const RegistroEnt = () => {
         .then(json=>{
             reset();
             console.log("Respuesta:", json);
-            alertify.alert("Información de Envío", json.msj);
+            alertify.alert("Información de Envío", json.msj);                        
         })
     };
     console.log(errors);
@@ -37,19 +37,19 @@ const RegistroEnt = () => {
                 <input type="text" className="form-control text-center" name="idTrabH" {...register("idTrabH", {required: true})} />
                 {errors.idTrabH && <span className='text-danger'>Se requiere el ID</span>}
                 <br />                
-                <label>Fecha:</label><br />
+                {/* <label>Fecha:</label><br />
                 <input type="date" className="form-control text-center" name="FechaEnt" {...register("FechaEnt", {required: true})}></input>
                 {errors.FechaEnt && <span className="text-danger">Se requiere la fecha</span>}
-                <br />
-                <label>Hora de Entrada (24hrs):</label><br />
+                <br /> */}
+                {/* <label>Hora de Entrada (24hrs):</label><br />
                 <input type="time" className="form-control text-center" name="HorarioEntrada" {...register("HorarioEntrada", {required: true})} ></input>
                 {errors.HorarioEntrada && <span className="text-danger">Se requiere el horario</span>}
-                <br />
+                <br /> */}
                 <button type="submit" className="botonenes">Guardar</button>                
                 <button type="reset" className="botonenes">Borrar</button>
             </form> <br />                   
             </Grid>
-            <Link to='main'>VOLVER</Link>                                         
+            <Link to='/'>VOLVER</Link>                                         
             </Grid>            
         </AppFrame>         
         
