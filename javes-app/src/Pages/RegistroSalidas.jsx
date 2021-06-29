@@ -49,7 +49,7 @@ const RegistroSal = () => {
                 <button type="reset" className="botonenes">Borrar</button>
             </form> <br />  
                 </Grid>
-                <Link to='/'>VOLVER</Link>                   
+                <Link to='/'>SALIR</Link>                   
                 </Grid>                  
         </AppFrame>
     )
