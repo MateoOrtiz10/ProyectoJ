@@ -9,6 +9,7 @@ import 'alertifyjs/build/css/themes/default.min.css';
 import {Link} from 'react-router-dom';
 
 const RegistroEnt = () => {
+
     const URL_API='http://localhost/api-demo/insertar_registro_entrada.php';
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
@@ -35,21 +36,12 @@ const RegistroEnt = () => {
             <form className="formulario" onSubmit={handleSubmit(onSubmit)}>
                 <label>ID de Trabajador</label><br />                
                 <input type="text" className="form-control text-center" name="idTrabH" {...register("idTrabH", {required: true})} />
-                {errors.idTrabH && <span className='text-danger'>Se requiere el ID</span>}
-                <br />                
-                {/* <label>Fecha:</label><br />
-                <input type="date" className="form-control text-center" name="FechaEnt" {...register("FechaEnt", {required: true})}></input>
-                {errors.FechaEnt && <span className="text-danger">Se requiere la fecha</span>}
-                <br /> */}
-                {/* <label>Hora de Entrada (24hrs):</label><br />
-                <input type="time" className="form-control text-center" name="HorarioEntrada" {...register("HorarioEntrada", {required: true})} ></input>
-                {errors.HorarioEntrada && <span className="text-danger">Se requiere el horario</span>}
-                <br /> */}
+                {errors.idTrabH && <span className='text-danger'>Se requiere el ID</span>}              
                 <button type="submit" className="botonenes">Guardar</button>                
                 <button type="reset" className="botonenes">Borrar</button>
             </form> <br />                   
             </Grid>
-            <Link to='/'>SALIR</Link>                                         
+            <Link className="btn btn-dark" to='/'>SALIR</Link>                                         
             </Grid>            
         </AppFrame>         
         
