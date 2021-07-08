@@ -11,7 +11,16 @@
 	 font-family: 'Playfair Display', serif;
 	 text-shadow: 2px 1px 1px #ff0000;
 	 margin: 5px auto;
+	 color: #000000;
  }
+
+ .tituloadm{
+	font-size: 45px;
+	font-family: 'Playfair Display', serif;
+	text-shadow: 2px 1px 1px #ff0000;
+	margin: 5px auto;
+	color: #ffffff;
+}
 
  .adm{
 	position: fixed;
@@ -19,7 +28,7 @@
 	right: 0;
 	top: 0;
 	bottom: 0;
-	color: #ffffff;	
+	color: #000000;	
 	background: rgb(7,7,15);
 	background: linear-gradient(90deg, rgba(7,7,15,1) 0%, rgba(107,20,20,0.9920167896260067) 100%, rgba(0,212,255,1) 100%);
  }
