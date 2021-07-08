@@ -13,7 +13,10 @@ const WelcomePage = () => {
       <Grid container direction="column" justify="center" className="full">
         <div className="highlight">
           <Grid item container xs={12} justify="center" alignItems="center" direction="column">
-            <Grid item>
+          <Typography>
+                <h2>JavesApp</h2>
+              </Typography>
+            <Grid item>              
               <IconContext.Provider value={{ size: "8em" }}>
                 <AiTwotoneUsb />
               </IconContext.Provider>
@@ -24,10 +27,7 @@ const WelcomePage = () => {
               direction="colum"
               justify="center"
               alignItems="center"
-            >
-              <Typography>
-                <h3>JavesApp</h3>
-              </Typography>
+            >             
             </Grid>
             <Typography>
             <h5>¿Qué es usted?</h5>
