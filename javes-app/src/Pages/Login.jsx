@@ -1,5 +1,8 @@
 import React, {useRef, useState} from "react";
 import "../Style/javes.css";
+import {FaLaptop, FaLock} from 'react-icons/fa';
+import {GrMailOption} from 'react-icons/gr';
+
 
 const URL_LOGIN="http://localhost/api-demo/login.php";
 
@@ -48,19 +51,19 @@ export default function Login(props) {
         <div className="col-sm-4 offset-4 mt-5">
           <div className="card pt-5">
             <div className="card-header text-center"> 
-            <h3>💻 Administración</h3>
+            <h3><FaLaptop className="icono"/> Administración</h3>
             </div>
             <div className="card-body">
               <div className="input-group mb-3">
                 <div className="input-group-prepend">
                   <span className="input-group-text" id="basic-addon1">
-                  📧
+                 <GrMailOption/>
                   </span>
                 </div>
                 <input
                   type="email"
                   className="form-control"
-                  placeholder="Correo"
+                  placeholder="Correo electrónico"
                   aria-label="Username"
                   aria-describedby="basic-addon1"
                   ref={refUsuario}
@@ -70,7 +73,7 @@ export default function Login(props) {
               <div className="input-group mb-3">
                 <div className="input-group-prepend">
                   <span className="input-group-text" id="basic-addon1">
-                  🔒
+                  <FaLock/>
                   </span>
                 </div>
                 <input
@@ -88,7 +91,7 @@ export default function Login(props) {
                   {error}
                   </div>
                 }                                        
-              <button className="btn btn-info btn-lg btn-block" 
+              <button className="btn btn-dark btn-lg btn-block" 
               onClick={handleLogin} 
               disabled={espera} >
                 Acceder</button>              

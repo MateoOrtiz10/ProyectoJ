@@ -30,7 +30,7 @@ const WelcomePage = () => {
               </Typography>
             </Grid>
             <Typography>
-            <h5>Usted es?</h5>
+            <h5>¿Qué es usted?</h5>
             </Typography>
             <Link
               component={RouterLink}
