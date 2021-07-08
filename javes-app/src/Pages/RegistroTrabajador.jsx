@@ -28,7 +28,7 @@ const RegistroTrabajador = () => {
 
     return (
         <Grid container justify="center" className="adm">
-             <h3 className="titulo">Registro de Trabajadores</h3><br/>   
+             <h3 className="titulo">Registros de Trabajadores</h3><br/>   
              <Grid item xs={12}>
                 <form className="formulario" onSubmit={handleSubmit(onSubmit)}>
                 <label>ID de Trabajador:</label><br/>
@@ -49,7 +49,7 @@ const RegistroTrabajador = () => {
                 <br /> 
                 <button type="submit" className="botonenes">Guardar</button>
                 <button type="reset" className="botonenes">Borrar</button>
-                <Link to='/AdmJav'>REGRESAR</Link>
+                <Link to='/AdmJav' className="btn btn-dark">REGRESAR</Link>
             </form> <br />              
                 </Grid>                
         </Grid>

@@ -6,6 +6,7 @@ import Admin from './Pages/AdmJav';
 import NotFound from './Pages/NotFoundPage';
 import MainPage from './Pages/MainPage';
 import Trabajadores from './Pages/RegistroTrabajador';
+import AdmTrabaj from './Pages/AdmTrabajadores';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
@@ -32,6 +33,9 @@ const App = () => {
               </Route> 
               <Route path='/Trabajadores'>    
                 <Trabajadores/>
+              </Route>
+              <Route path='/ConsultasT'>
+              <AdmTrabaj/>
               </Route>             
               <Route>
                 <NotFound/>
