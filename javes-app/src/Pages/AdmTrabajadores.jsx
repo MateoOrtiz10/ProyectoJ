@@ -161,7 +161,7 @@ const AdmTrabajadores = () => {
         )}
         {mdlEdit}
       </Grid>
-      <Link to="/Admin" className=" btn btn-primary text-center">
+      <Link to="/Admin" className=" btn btn-dark text-center">
         REGRESAR
       </Link>
     </Grid>
